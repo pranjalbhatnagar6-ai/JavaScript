@@ -79,3 +79,6 @@ DOM MANIPULATION
     append.child()
     remove.child()
     
+//Q.2.
+learn about classList
+use to apply new class and its properties with existing class.

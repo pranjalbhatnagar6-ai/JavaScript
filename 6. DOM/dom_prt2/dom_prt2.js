@@ -49,9 +49,16 @@
 //PRACTICE
 //Q.1.
 
-let newBtn = document.createElement("button");
-newBtn.innerText = "clickme !";
-let div = document.querySelector("div");
-div.before(newBtn);
-newBtn.style.color = "white";
-newBtn.style.backgroundColor = "red";
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "clickme !";
+// let div = document.querySelector("div");
+// div.before(newBtn);
+// newBtn.style.color = "white";
+// newBtn.style.backgroundColor = "red";
+//  document.querySelector("body").prepend(newBtn);
+
+//Q.2.
+
+let para = document.querySelector("p");
+para.classList.add("newClass");
+para.classList.remove("newClass");
