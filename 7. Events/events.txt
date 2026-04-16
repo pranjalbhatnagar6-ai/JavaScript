@@ -1,0 +1,7 @@
+//Event handeling in js
+
+node.event = () => {
+    //handle here
+}
+
+callback ko remove karne ke liye hum usko variable me kar lete hai.

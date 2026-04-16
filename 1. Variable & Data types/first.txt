@@ -1,0 +1,18 @@
+dynamic language
+//variable rules
+    1. Case sensitive language
+    2. letters digits, _ $  allowed
+    3. $ should be first.
+    4. not even space between names.
+//keywords
+//convention - Camel Case
+
+// let ,const & variable
+let - variable update kar skte hai but re-declared nahi.that's good.
+// Data types
+typeof - use to find data type
+number,string,boolean,undefined,Null,Bigint,Symbol.
+// Note
+let - update 
+const - can't update
+const obj -> key -> can update.

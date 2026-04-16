@@ -1,0 +1,81 @@
+DOM - document Object model(DOM)
+HTML --> access in js as object which known as document.
+//
+# Window Object
+The window object represents an open window in a window in a browser.It is browser's Object(not js) & its automatically created by browser.
+It is a global Object with lots of properties & methods.
+//
+console.log -> print
+console.dir -> document -> print -> properties & Methods.
+//
+DOM MANIPULATION
+
+Selecting with ID
+    document.getElementById("myid");
+
+Selecting with class
+    document.getElementByClassName("myid");
+    * HTML Collection -> Array
+
+Selecting with tag
+    document.getElementByTagName("myid");
+
+Query Selector
+    we can select ID,class and tag by Query Selector
+
+//
+class hamesha . se access hoti hai
+//
+DOM MANIPULATION - Properties
+properties ki value check kar sakte hain or change bhi kar sakte hai.
+get,set 
+tagName : return tag for elements nodes.
+
+
+innerHTML : returns the plain 
+
+//
+DOM tree - there are nodes 3 which comes under DOM tree.
+    * text nodes
+    * comment
+    * elements
+//
+innerText : return the text content of the element and all its children
+
+innerText me sirf pure text content aayega and innerHTML me HTML content.
+
+DOM MANIPULATION(DOM PART 2)
+
+Attribution(Attribute)
+    getAttribute(attr) // to get the attribute value
+    
+    setAttribute(attr, value) //to set the attribution.
+
+//STYLE
+js se style add karna 
+div.style.backgroundColor = "green";
+div.style.backgroundColor = "purple";
+div.style.fontSize = "26px";
+div.innerText = "Hello";
+
+DOM MANIPULATION
+// Insert Elements
+
+    * node.append(element) //adds at the end of node(inside)
+    * node.prepend(element) //adds at the start of node(inside)
+    * node.before(element) // adds before the node (outside)
+    * node.after(element) // adds after the node(outside)
+
+//Delete Element
+* node.remove() //remove the node
+
+// Create ELEMENT 
+// let element = document.createElement("TAG NAME");
+
+// Delete Element
+    * node.remove() //remove the node.
+
+//MDN [H.W.]
+    append.child()
+    remove.child()
+    

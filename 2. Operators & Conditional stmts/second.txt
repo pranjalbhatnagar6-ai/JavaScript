@@ -1,0 +1,8 @@
+// Comments
+//Operators
+//Conditionals
+    if
+    else
+    else if
+Ternary Operator
+condition?True output
