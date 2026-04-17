@@ -1,10 +1,15 @@
-//Event handeling in js
+
+//Inline event handeling
 onclick = "console.log('button was clicked');alert('Hello')
     *onclick button ke liye ek event attribute hota hai click karne per kuch perform/event hona.
 ondblclick = "console.log('button was clicked');alert('Hello')
 
+
+//Event handeling in js
 node.event = () => {
     //handle here
 }
+example-
+    btn.onclick
 
 callback ko remove karne ke liye hum usko variable me kar lete hai.
