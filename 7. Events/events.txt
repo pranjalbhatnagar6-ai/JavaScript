@@ -1,4 +1,7 @@
 //Event handeling in js
+onclick = "console.log('button was clicked');alert('Hello')
+    *onclick button ke liye ek event attribute hota hai click karne per kuch perform/event hona.
+ondblclick = "console.log('button was clicked');alert('Hello')
 
 node.event = () => {
     //handle here
